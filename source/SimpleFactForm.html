@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="SimpleFactForm.js"></script>
+    <link rel="stylesheet" href="SimpleFactForm.css" />
+    <title>Team Introduction</title>
+</head>
+<body>
+    <div id="questions">
+        <div>
+            What is your name?
+            <input type="text" id="name" required />
+        </div>
+        <div>
+            What is an interesting fact about you?
+            <input type="text" id="fact" required />
+        </div>
+        <div>
+            <button id="submit">Introduce myself</button>
+        </div>
+    </div>
+    <div id="intro">
+        Please welcome <div id="introName"></div>
+        Fun fact: <div id="introFact"></div>
+        <div>
+            <button id="reset">Introduce someone else</button>
+        </div>
+    </div>
+</body>
+</html>

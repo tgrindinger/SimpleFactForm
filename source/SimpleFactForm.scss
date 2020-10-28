@@ -1,0 +1,16 @@
+﻿$backgroundColor: #e5eecc;
+$borderColor: #c3c3c3;
+$padding: 5px;
+
+div {
+    padding: $padding;
+}
+#questions, #intro {
+    text-align: center;
+    background-color: $backgroundColor;
+    border: solid 1px $borderColor;
+    padding: $padding;
+}
+#intro {
+    display: none;
+}
